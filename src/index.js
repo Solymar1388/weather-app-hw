@@ -11,6 +11,16 @@ root.render(
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSearch />
+      <footer>
+        This project was coded by Olesia Libra and is {''}
+        <a
+          href="https://github.com/Solymar1388/weather-app-hw"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   </React.StrictMode>
 );
